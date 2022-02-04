@@ -1,0 +1,144 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "window.restoreFullscreen": true,
+  "window.nativeTabs": true,
+  "window.zoomLevel": -1,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.fontAliasing": "auto",
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorCustomizations": {
+    // "editorGroupHeader.tabsBackground": "#2E3440",
+    // "tab.activeForeground": "#ff0000",
+    // "tab.activeBorderTop": "#ff0000",
+    // "editor.background": "#000088",
+    // "editor.selectionBackground": "#008800",
+    // "editorBracketMatch.background": "#7878aa",
+    "editorBracketMatch.border": "#fed767",
+    "tab.activeBorderTop": "#ffc600"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.fontFamily": "JetBrains Mono, Operator Mono, monospace",
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  "editor.fontSize": 26,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.showIcons": true,
+  "editor.suggest.preview": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+    "source.fixAll.stylelint": true
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.lineNumbers": "on",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": true,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.experimentalLinkProvider": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  // Git merge conflicts
+  "merge-conflict.diffViewPosition": "Beside",
+  "merge-conflict.codeLens.enabled": true,
+  // Debug Console Output font size
+  "[Log]": {
+    "editor.fontSize": 10
+  },
+  "[log]": {
+    "editor.fontSize": 16
+  },
+  "files.associations": {
+    "*.scss": "scss"
+  },
+  // TypeScript Specifics
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  // Disable and use Path Intellisense Extension
+  "typescript.suggest.paths": false,
+  // JavaScript Specifics
+  "javascript.suggest.paths": false,
+  // SCSS Specifics
+  "scss.lint.propertyIgnoredDueToDisplay": "error",
+  "scss.completion.completePropertyWithSemicolon": true,
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.ieHack": "warning",
+  "scss.lint.importStatement": "warning",
+  "scss.lint.universalSelector": "warning",
+  // JSON Schemas
+  "json.schemaDownload.enable": true,
+  "json.schemas": [
+    {
+      "name": "eslintrc",
+      "fileMatch": [
+        ".eslintrc.*"
+      ],
+      "url": "http://json.schemastore.org/eslintrc"
+    },
+    {
+      "name": "postcssrc",
+      "fileMatch": [
+        ".postcssrc.json",
+        "postcss.*"
+      ],
+      "url": "http://json.schemastore.org/postcssrc"
+    }
+  ],
+  // Vetur Extension
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.useWorkspaceDependencies": true,
+  // ESLint Extension
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  // Gitlens Extension
+  "gitlens.hovers.avatars": false,
+  "gitlens.views.commits.avatars": false,
+  "gitlens.views.repositories.includeWorkingTree": true,
+  "gitlens.views.repositories.avatars": false,
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.views.branches.avatars": false,
+  "gitlens.views.remotes.avatars": false,
+  "gitlens.views.tags.avatars": false,
+  "gitlens.views.contributors.avatars": false,
+  "gitlens.views.searchAndCompare.avatars": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.blame.highlight.locations": [
+    "gutter",
+    "line",
+    "overview"
+  ],
+  "gitlens.codeLens.scopes": [
+    "document",
+    "containers"
+  ],
+  "gitlens.statusBar.enabled": false
+}
