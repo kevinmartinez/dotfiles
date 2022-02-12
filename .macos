@@ -48,6 +48,19 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 ###############################################################################
+# Sound                                                                       #
+###############################################################################
+
+# Disable the sound effects on boot
+sudo nvram StartupMute=%01
+
+# Enable the sound effects on boot
+# sudo nvram StartupMute=%00
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=%05
+
+###############################################################################
 # Energy saving                                                               #
 ###############################################################################
 
